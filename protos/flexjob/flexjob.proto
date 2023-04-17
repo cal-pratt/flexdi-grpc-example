@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package flexjob;
+
+import "google/longrunning/operations.proto";
+
+service FlexJob {
+  rpc CreateJob(CreateJobRequest) returns (google.longrunning.Operation);
+}
+
+message CreateJobRequest {
+  string instance = 1;
+  string action = 2;
+}

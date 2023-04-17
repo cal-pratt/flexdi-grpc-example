@@ -1,0 +1,38 @@
+proto_dir: "../protos/"
+python_dir: "../src/flexjob/protos"
+python_package: "flexjob.protos"
+
+protos:
+  - url: "https://raw.githubusercontent.com/googleapis/googleapis/6774ccbbc3f182f6ae3a32dca29e1da489ad8a8f/google/api/annotations.proto"
+    path: "google/api/annotations.proto"
+    package: "google.api"
+    name: "annotations"
+
+  - url: "https://raw.githubusercontent.com/googleapis/googleapis/6774ccbbc3f182f6ae3a32dca29e1da489ad8a8f/google/api/client.proto"
+    path: "google/api/client.proto"
+    package: "google.api"
+    name: "client"
+
+  - url: "https://raw.githubusercontent.com/googleapis/googleapis/6774ccbbc3f182f6ae3a32dca29e1da489ad8a8f/google/api/http.proto"
+    path: "google/api/http.proto"
+    package: "google.api"
+    name: "http"
+
+  - url: "https://raw.githubusercontent.com/googleapis/googleapis/6774ccbbc3f182f6ae3a32dca29e1da489ad8a8f/google/api/launch_stage.proto"
+    path: "google/api/launch_stage.proto"
+    package: "google.api"
+    name: "launch_stage"
+
+  - url: "https://raw.githubusercontent.com/googleapis/googleapis/6774ccbbc3f182f6ae3a32dca29e1da489ad8a8f/google/rpc/status.proto"
+    path: "google/rpc/status.proto"
+    package: "google.rpc"
+    name: "status"
+
+  - url: "https://raw.githubusercontent.com/googleapis/googleapis/6774ccbbc3f182f6ae3a32dca29e1da489ad8a8f/google/longrunning/operations.proto"
+    path: "google/longrunning/operations.proto"
+    package: "google.longrunning"
+    name: "operations"
+
+  - path: "flexjob/flexjob.proto"
+    package: "flexjob"
+    name: "flexjob"
